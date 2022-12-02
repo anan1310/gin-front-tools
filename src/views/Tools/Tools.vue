@@ -21,7 +21,7 @@
       <el-table :data="tableData" 
       border 
       style="width: 100%">
-      <!-- 实现多选 -->
+      <!-- 实现多选  -->
       <el-table-column
       type="selection"
       width="55">
