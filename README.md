@@ -1,24 +1,3 @@
-# gin-front-tools
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# 1、使用vue的脚手架创建项目
+# 2、流程主的js文件为main.js,其中导入了路由和vuex
+# 3、配置路由，配置页面，并且将页面引入路由中
