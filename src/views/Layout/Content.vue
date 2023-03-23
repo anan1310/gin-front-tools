@@ -1,6 +1,7 @@
 <template>
   
   <div>
+  <div style="min-width: 1100px" > 
     <div class="header">
     导航条
     </div>
@@ -8,6 +9,7 @@
       <!-- 路由出口 -->
       <router-view />
     </div>
+  </div>
   </div>
 </template>
 
@@ -24,4 +26,5 @@ export default {
   color: #fff;
   background: #1e78bf;
 }
+
 </style>

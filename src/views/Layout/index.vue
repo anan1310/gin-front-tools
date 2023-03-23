@@ -20,15 +20,16 @@ export default {
 
 <style lang='less' scoped>
 .layout {
+  display: flex;
   .menu {
     background: #112f50;
-    position: fixed;
-    top: 0;
-    bottom: 0;
   }
   .content {
-    margin-left: 200px;
+    flex: 1;
     transition: all 0.3s;
+    width: 100%;
+    overflow: auto;
+
   }
   .isActive {
     margin-left: 64px;
